@@ -1,0 +1,2 @@
+# Generate .js files read ./tsconfig.json for build details
+nodemon -e ts --exec 'tsc -p .'

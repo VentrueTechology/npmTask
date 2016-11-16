@@ -1,0 +1,3 @@
+concurrently --kill-others \
+    "nodemon -e scss --exec 'npm run build-sass'"\
+    "nodemon -e ts --exec 'tsc -p .'"

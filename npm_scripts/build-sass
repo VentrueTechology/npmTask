@@ -1,0 +1,4 @@
+# Generate both css files, compact and compressed
+ node-sass --include-path scss assets/scss -o assets/css/min --output-style compressed \
+ &&\
+ node-sass --include-path scss assets/scss -o assets/css --output-style compact
