@@ -1,7 +1,7 @@
 {
   "name": "npmtask",
   "version": "1.0.0",
-  "description": "how to use npm as task manager and say bie to Gulp & Grunt",
+  "description": "how to use npm as task manager and say bye to Gulp & Grunt",
   "main": "index.js",
   "scripts": {
     "start": "./npm_scripts/start",
