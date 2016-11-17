@@ -8,6 +8,10 @@ Use `nodemon` to start the app
 
 The idea off this project is to use only npm to manage build and test tasks in dev environment.
 
-This uses the package.json to declare the scripts, actually this isn't required but is very usefull when you want to execute a single step.
+This uses the package.json to declare the scripts, actually this isn't required but is very usefull when you want to execute a single step like `npm run build-typescript`.
 
-The script's files must be under -x grant, to ensure that the command `npm run prebuild` must be executed before the first execution and aways after a new script creation
+####Tasks:
+* build-typescript: Used to transpile .ts files to .js;
+* build-sass: Used to compile .scss files to .css;
+* prestart: run chmod +x to script files under npm_sctipts/ folder. This is a necessary step to allow npm to run the files as scripts. This will run automatically before `npm start`;
+* start: put all scripts in hook mode;
